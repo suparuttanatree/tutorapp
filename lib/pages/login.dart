@@ -1,4 +1,4 @@
-import 'package:TheppeFood/utility/style.dart';
+import 'package:fatcats/utility/style.dart';
 import 'package:flutter/material.dart';
 
 class SignIn extends StatefulWidget {
@@ -6,6 +6,7 @@ class SignIn extends StatefulWidget {
   _SignInState createState() => _SignInState();
 }
 
+// TODO: update the detail @theepakorn
 class _SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
@@ -37,7 +38,7 @@ class _SignInState extends State<SignIn> {
   Widget btnLogin() => Container(
         width: 250,
         child: RaisedButton(
-          color: MyStyle().darkColor,
+          color: MyStyle().priColor,
           onPressed: () {},
           child: Text(
             'Login',
@@ -50,8 +51,8 @@ class _SignInState extends State<SignIn> {
         width: 250,
         child: TextField(
           decoration: InputDecoration(
-            prefixIcon: Icon(Icons.person, color: MyStyle().darkColor),
-            labelStyle: TextStyle(color: MyStyle().darkColor),
+            prefixIcon: Icon(Icons.person, color: MyStyle().priColor),
+            labelStyle: TextStyle(color: MyStyle().priColor),
             labelText: 'User : ',
             enabledBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: MyStyle().darkColor)),
